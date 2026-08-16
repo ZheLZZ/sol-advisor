@@ -1,4 +1,0 @@
-interface:
-  display_name: "Sol Advisor Orchestration"
-  short_description: "Use native Luna / Max by default, escalate to Terra / High when needed, then verify and accept with fresh Sol / High"
-  default_prompt: "Use $orchestration: Sol plans, Luna / Max handles routine work, Terra / High is immediate escalation when needed, and fresh Sol / High reviews."
