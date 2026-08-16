@@ -105,16 +105,29 @@ modify the same file or cover overlapping scope.
 
 ## Verify and deliver
 
-Treat Luna's report as unverified claims. Inspect the cited evidence and actual changed
-files, rerun proportionate checks, confirm scope discipline, and resolve discrepancies
-before using the result. The primary agent must make every final fact, legal, financial,
-disclosure, compliance, architecture, risk, and acceptance judgment.
+Review Luna's deliverable rather than reproducing Luna's task. Start from the returned
+artifacts, cited evidence, diffs, and acceptance criteria. Inspect the actual changed
+files and run the smallest decisive checks needed to confirm the result. For repetitive,
+low-risk work, use risk-based sampling; check boundaries, interfaces, safety constraints,
+and high-impact claims directly.
+
+Do not rerun the full search, extraction, classification, or implementation merely to
+gain confidence. Expand the review only when evidence is missing or unverifiable, a
+sample fails, outputs contradict each other, or the work shows a potentially systemic
+defect. State the reason before expanding scope. Prefer a targeted fix or follow-up
+packet over silently redoing the whole delegated task.
+
+The primary agent must still make every final fact, legal, financial, disclosure,
+compliance, architecture, risk, and acceptance judgment, and resolve discrepancies
+before using the result. Independent verification means checking the decisive evidence
+and acceptance conditions, not recreating every intermediate step.
 
 Do not automatically escalate to Terra or request a fresh Sol review. Use another
 model or review lane only when the user separately requests it in the current task.
 
 In the final answer, briefly identify what was delegated to Luna and what the primary
-agent independently verified. Report unresolved limitations instead of hiding them.
+agent reviewed or independently checked. Report unresolved limitations instead of
+hiding them.
 
 ## Explicit-request examples: use without reconfirmation
 
