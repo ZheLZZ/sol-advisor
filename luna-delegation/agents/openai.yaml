@@ -1,0 +1,7 @@
+interface:
+  display_name: "Luna Delegation"
+  short_description: "按用户指令或经同意，将低复杂度子任务交给 Luna / Max，并由主代理复核"
+  default_prompt: "使用 $luna-delegation，将适合的低复杂度部分委派给 Luna / Max，完成后核验并汇总结果。"
+
+policy:
+  allow_implicit_invocation: true
